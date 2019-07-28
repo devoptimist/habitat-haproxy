@@ -1,6 +1,6 @@
 pkg_name=haproxy
 pkg_origin=devoptimist
-pkg_version="0.2.0"
+pkg_version="2.0.0"
 pkg_maintainer="Steve Brown <sbrown@chef.io>"
 pkg_license=("Apache-2.0")
 pkg_deps=(
