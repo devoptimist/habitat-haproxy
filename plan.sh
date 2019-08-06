@@ -15,7 +15,7 @@ pkg_exports=(
 )
 pkg_exposes=(port status-port)
 pkg_binds_optional=(
-  [backend]="port"
+  [backend]="port superuser_name"
 )
 
 do_build() {

@@ -1,5 +1,7 @@
 maxconn = 32
-httpchk = "GET /"
+httpchk = ""
+
+pgsqlchk = "status_user"
 
 [front-end]
 listen = "*"
@@ -7,7 +9,7 @@ port = 80
 mode = "http"
 
 [status]
-enabled = false
+enabled = true
 listen = "*"
 port = 9000
 user = "admin"
